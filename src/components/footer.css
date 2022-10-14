@@ -1,0 +1,13 @@
+@import url(./style.css);
+
+footer {
+    display: flex;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li a {
+    text-decoration: none;
+}
