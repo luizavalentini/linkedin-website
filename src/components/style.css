@@ -1,6 +1,8 @@
 @import url(./feed.css);
 @import url(./index.css);
 @import url(./constants.css);
+@import url(./header.css);
+@import url(./footer.css);
 
 * {
     margin: 0;
