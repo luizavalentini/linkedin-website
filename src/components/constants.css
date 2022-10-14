@@ -1,0 +1,8 @@
+@import url(./style.css);
+
+:root {
+    --primary-color: linear-gradient(rgba(0, 119, 181, 1) rgba(14, 103, 149, 1)) no-repeat;
+    --secundary-color:  rgba(255, 255, 255, 1);
+    --text-color: rgba(24, 24, 24, 1);
+    --bg-color: rgba(247, 249, 251, 1);
+  } 
