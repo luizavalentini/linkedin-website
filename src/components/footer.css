@@ -4,6 +4,19 @@ footer {
     display: flex;
     justify-content: center;
     width: 100%;
+    border-top: 1px solid rgba(24, 24, 24, 0.1);
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+footer h3 {
+    font-size: 14px; 
+    padding-bottom: 15px;   
+}
+
+footer a {
+    font-size: 14px;
+    color: black;
 }
 
 footer ul {
@@ -19,6 +32,7 @@ footer li a {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
+    padding-top: 30px;
 }
 
 .bts-on-footer {
@@ -30,4 +44,55 @@ footer li a {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-top: 30px;
+}
+
+.col02-footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 10px;
+}
+
+.coltxt-footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 72px;
+}
+
+.bts-on-footer {
+    width: 170px;  
+    gap: 10px; 
+}
+
+.blue-button-ft, .off-button-ft {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-radius: 4px;
+    border: #0275B1 1px solid;
+    cursor: pointer;
+}
+
+.blue-button-ft {
+    background-color: var(--blue-pattern);
+    color: white;
+}
+
+.off-button-ft {
+    background-color: var(--bg-color);   
+    color: var(--blue-pattern); 
+}
+
+.off-button-ft i {
+    color: var(--blue-pattern);
+}
+
+.col02-footer select {
+    width: 270px;
+    padding: 6px;
+    font-weight: 700;
 }
