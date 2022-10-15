@@ -1,0 +1,139 @@
+@import url(./style.css);
+
+/* Box With Padding */
+.box-container {
+    width: 100%;
+    background-color: var(--secundary-color);
+    padding: 25px 30px 33px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+/* Horizontal Line */
+.box-container hr {
+    opacity: 20%; 
+}
+
+/* Box Divisors (Content) */
+
+/* Top */
+.top-ct-bd {
+    background-color: var(--secundary-color);
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(24, 24, 24, 0.1);
+    box-sizing: border-box;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.top-ct-bd h1 {
+    font-size: 8px;
+}
+
+.top-ct-bd h2 {
+    font-size: 8px;
+    color: var(--blue-pattern);
+}
+
+.top-ct-txt {
+    display: flex;
+    gap: 3px;
+}
+
+/* Mid */
+.mid-ct-bd, .mid-ct-bd-02 {
+    background-color: var(--secundary-color);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    border-bottom: 1px solid rgba(24, 24, 24, 0.1);
+}
+
+.mid-ct-bd .img-text, .mid-ct-bd-02 .img-text {
+    display: flex;
+    align-items: center;
+}
+
+.mid-ct-bd img, .mid-ct-bd-02 img {
+    height: 52px;
+    width: 52px;
+    border-radius: 100%;
+    border: none;
+}
+
+.mid-ct-bd p {
+    font-size: 13px; 
+    background: -webkit-linear-gradient(black, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.mid-ct-bd-02 p {
+    font-size: 14px;
+    color: black;
+}
+
+.text-and-rm {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.text-and-rm a {
+    font-size: 11px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--blue-pattern);
+}
+
+/* Bot */
+
+.bot-ct-bd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    background-color: var(--secundary-color);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.bot-ct-bd .icons {
+    display: flex;
+    color: var(--blue-pattern);
+}
+
+.bot-ct-bd h1 {
+    font-size: 11px;
+    color: black;
+}
+
+.bot-ct-bd .divisor, .bot-ct-bd .divisor-02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-right: 30px;
+    height: 50px;
+    border-right: 1px solid rgba(24, 24, 24, 0.1);
+}
+
+.bot-ct-bd .divisor-02 {
+    padding-left: 30px;
+}
+
+.bot-ct-bd .share-bd {
+    align-items: center;
+    gap: 10px;
+    height: 50px;
+    border-left: 1px solid rgba(24, 24, 24, 0.1);
+    padding-left: 30px;
+}

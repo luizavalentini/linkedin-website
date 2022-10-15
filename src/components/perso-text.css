@@ -1,0 +1,17 @@
+@import url(./style.css);
+
+.tittle-secs {
+    font-size: 12px;
+    font-weight: 600;    
+}
+
+.name-bd-secs {
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 3px;    
+}
+
+.sub-name-bd {
+    font-size: 10px;
+    font-weight: 400;    
+}
