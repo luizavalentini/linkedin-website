@@ -1,5 +1,7 @@
 @import url(./style.css);
 
+/* <<<<profile card>>>>> */
+
 .container-70 {
   width: 70%;
   height: 1000px;
@@ -64,6 +66,13 @@ button {
   align-content: center;
   padding-left: 10px;
   border: none;
+  text-align: center;
+}
+
+.edit-profile-text{
+    font-size: 12px;
+line-height: 11px;
+text-align: center;
 }
 
 .button-three-points {
@@ -170,3 +179,6 @@ button {
     text-align: center;
 
 }
+
+/* <<<<< about card >>>>>> */
+
