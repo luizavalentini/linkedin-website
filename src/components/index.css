@@ -6,7 +6,7 @@
 
 .container-70-profile {
   width: 70%;
-  height: 1800px;
+  height: 1885px;
   display: flex;
   flex-direction: column;
   border-radius: 4px;
@@ -53,7 +53,7 @@
   margin-right: 30px;
 }
 
-button {
+.button-upload {
   width: 36px;
   height: 36px;
   border-radius: 4px;
@@ -185,7 +185,7 @@ text-align: center;
     font-size: 12px;
     line-height: 11px;
     text-align: center;
-
+    background-color: var(--secundary-color);
 }
 
 /* <<<<< about card >>>>>> */
@@ -207,27 +207,36 @@ text-align: center;
 
 .buttons-about{
   display: flex;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: -25px;
+  align-items: baseline;
 }
 
+
 .profile-about{
-  height: 40px;
+  height: 50px;
   width: 240px;
-  background-color: aqua;
+  background-color: #0e6795;
+  color: var(--secundary-color);
   border: 1px solid #E7E7E7; 
+  border-radius: 4px 4px 0px 0px;
 }
 
 .interestes-about{
   height: 40px;
   width: 240px;
-  background-color: yellow;
+  background-color: var(--secundary-color);
   border: 1px solid #E7E7E7; 
+  border-radius: 4px 4px 0px 0px;
 }
 
 .articles-about{
   height: 40px;
   width: 240px;
-  background-color: green;
+  background-color: var(--secundary-color);
   border: 1px solid #E7E7E7; 
+  border-radius: 4px 4px 0px 0px;
 }
 
 .card-about{
@@ -238,22 +247,24 @@ text-align: center;
   height: 11px;
 }
 
-.profile-about:hover{
-  background-color: #0e6795;
-}
 
 hr{
   margin-top: -21px;
 }
 
-.about{
-  margin-top: 15px;
+.about {
+  margin-top: 20px;
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
+a{
+  text-decoration: none;
+}
+
 .about-title{
+  padding-top: 30px;
 padding-left: 30px;
 font-size: 18px;
 line-height: 17px;
