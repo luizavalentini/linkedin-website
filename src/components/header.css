@@ -1,0 +1,138 @@
+@import url(./style.css);
+
+header {
+    background-color: var(--secundary-color);
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header-logo {
+    padding: 0 30px;
+}
+
+.header-divisor {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid rgba(24, 24, 24, 0.1);
+}
+
+.icons-header {
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    gap: 35px;
+}
+
+.icons-header img {
+    height: 20px;
+    padding-bottom: 6px;
+}
+
+.icons-header h1 {
+    font-size: 11px;
+}
+
+.icon-on-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    height: 100%;
+}
+
+.icon-on-header:hover {
+    color: var(--blue-pattern);
+    border-bottom: 1px solid black;
+}
+
+.search-header {
+    padding: 0 20px;
+    display: flex;
+    gap: 15px;
+    width: 280px;
+}
+
+.search-header i {
+    color: var(--blue-pattern);
+}
+
+.search-header input {
+    border: none;
+}
+
+.search-header input::placeholder {
+    color: rgba(24, 24, 24, 0.2);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    padding: 0 80px 0 20px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.profile-header img {
+    height: 50px;
+}
+
+.chat-count-alert {
+    margin-left: -50px;
+    margin-top: -30px;
+}
+
+.text-header-profile, .text-header-profile2 {
+    display: flex;
+    gap: 7px;
+}
+
+.text-header-profile h1 {
+    font-size: 12px;
+}
+
+.text-header-profile h2 {
+    color: rgba(24, 24, 24, 0.2); 
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.text-header-profile2 h1 {
+    font-size: 12px;
+    color: rgba(24, 24, 24, 0.4); 
+    font-weight: 500;
+}
+
+.text-header-profile2 h2 {
+    font-size: 12px;
+    color: rgb(4, 202, 4);
+}
+
+.text-header-profile2 i {
+    color: rgb(4, 202, 4); 
+}
+
+.gapper-header {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.other-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.other-header h1 {
+    font-size: 12px;
+}

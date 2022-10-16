@@ -19,6 +19,10 @@ footer a {
     color: black;
 }
 
+footer a:hover {
+    color: var(--blue-pattern);
+}
+
 footer ul {
     list-style-type: none;
 }
