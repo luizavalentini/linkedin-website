@@ -1,1 +1,172 @@
 @import url(./style.css);
+
+.container-70 {
+  width: 70%;
+  height: 1000px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+}
+
+.container-30 {
+  width: 30%;
+  height: 600px;
+  background-color: blue;
+}
+.box-container-feed {
+  height: 360px;
+  width: 100%;
+  background-color: var(--secundary-color);
+  padding: 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.edit-profile {
+  position: absolute;
+  display: flex;
+  align-self: start;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.edit-profile-container {
+  gap: 10px;
+  display: flex;
+  position: absolute;
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+button {
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 10px 30px rgba(113, 123, 133, 0.05);
+  border: none;
+}
+
+.button-edit-profile {
+  display: flex;
+  width: 132px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 10px 30px rgba(113, 123, 133, 0.05);
+  border-radius: 4px;
+  align-items: center;
+  gap: 5px;
+  align-content: center;
+  padding-left: 10px;
+  border: none;
+}
+
+.button-three-points {
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 10px 30px rgba(113, 123, 133, 0.05);
+  border-radius: 4px;
+  padding-top: 4px;
+  border: none;
+}
+
+.profile-photo {
+  height: 170px;
+  width: 170px;
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: -50px;
+  margin-right: 10px;
+}
+.profile-bio {
+  display: flex;
+  gap: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.bio {
+  grid: auto-flow dense / 40px 40px 1fr;
+}
+
+.name {
+  display: flex;
+  align-self: auto;
+  gap: 8px;
+}
+.location {
+  display: flex;
+  align-self: auto;
+  gap: 8px;
+}
+
+.flex {
+  display: flex;
+  align-self: auto;
+  gap: 210px;
+}
+.text {
+  padding-bottom: 6px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.text-2 {
+  padding-top: 3px;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.text-3 {
+  width: 100%;
+  font-size: 14px;
+}
+
+.location-img {
+  width: 16px;
+}
+.description {
+  padding-top: 15px;
+  padding-right: 60px;
+}
+
+.contact-info {
+  display: flex;
+  margin-top: 18px;
+  gap: 20px;
+}
+
+.info {
+  width: 170px;
+  height: 32px;
+  background: linear-gradient(180deg, #0077b5 0%, #0e6795 100%);
+  border-radius: 4px;
+  border: none;
+}
+
+.conections {
+  width: 170px;
+  height: 32px;
+  border: 1px solid #0275b1;
+  border-radius: 4px;
+}
+
+.text-button {
+  font-size: 12px;
+  line-height: 11px;
+  text-align: center;
+  color: var(--secundary-color);
+}
+
+.text-button-2 {
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+
+}
