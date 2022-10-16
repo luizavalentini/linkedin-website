@@ -39,11 +39,16 @@
 .top-ct-bd h2 {
     font-size: 8px;
     color: var(--blue-pattern);
+    cursor: pointer;
 }
 
 .top-ct-txt {
     display: flex;
     gap: 3px;
+}
+
+.top-ct-bd i {
+    cursor: pointer;
 }
 
 /* Mid */
@@ -79,6 +84,10 @@
     color: black;
 }
 
+.name-bd-secs {
+    cursor: pointer;
+}
+
 .text-and-rm, .text-and-rm-02, .text-and-rm-03 {
     padding: 10px 0;
     display: flex;
@@ -96,6 +105,7 @@
 .text-and-rm-02 img  {
     width: 100%;
     padding-top: 20px;
+    cursor: pointer;
 }
 
 .blue-card-down {
@@ -108,6 +118,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
+    cursor: pointer;
 }
 
 .blue-card-down img {
@@ -155,6 +166,7 @@
 .bot-ct-bd .icons {
     display: flex;
     color: var(--blue-pattern);
+    cursor: pointer;
 }
 
 .bot-ct-bd h1 {
