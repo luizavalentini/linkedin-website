@@ -4,6 +4,7 @@ header {
     background-color: var(--secundary-color);
     height: 60px;
 }
+
 nav {
     display: flex;
     align-items: center;

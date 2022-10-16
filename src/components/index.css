@@ -11,17 +11,11 @@
   border-radius: 4px;
 }
 
-.container-30 {
+.container-30-profile{
   width: 30%;
   height: 600px;
-  background-color: blue;
 }
 
-.container-30 {
-  width: 30%;
-  height: 600px;
-  background-color: blue;
-}
 .box-container-feed {
   height: 360px;
   width: 100%;
