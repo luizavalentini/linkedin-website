@@ -336,6 +336,10 @@ a {
   gap: 5px;
 }
 
+.projects-carrosel img  {
+  height: 148px;
+}
+
 .projects-title-carrosel {
   font-size: 14px;
   line-height: 150%;
