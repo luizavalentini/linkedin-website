@@ -51,6 +51,11 @@ nav {
     border-bottom: 1px solid black;
 }
 
+.icon-on-header a {
+    display: flex;
+    justify-content: center;
+}
+
 .search-header {
     padding: 0 20px;
     display: flex;
