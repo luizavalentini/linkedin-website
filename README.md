@@ -13,7 +13,7 @@ If you want to run the project on your own computer, follow the steps below:
 2. Open the terminal and type the following command to clone the repository:
 
     ```
-   git clone https://github.com/luizavalentini/mobile-friendly-design.git
+   git clone https://github.com/luizavalentini/linkedin-website.git
    ```
 
 ### Starting the Project
