@@ -21,4 +21,4 @@ To initiate the project, simply left-click on the "index.html" or on the "feed.h
 
 
 ## Notes
-- Feel free to explore and use the API-People project! If you encounter issues or have suggestions for improvement, don't hesitate to contribute or get in touch with me!
+- If you encounter issues or have suggestions for improvement, don't hesitate to contribute or get in touch with me!
